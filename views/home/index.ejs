@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/csslayout.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="navbar-fixed">
+                <nav>
+                    <img src="imagens/logo.png">
+                    <a href="#" class="black-text brand-logo center">Santuário</a>
+                    <ul class="right hide-on-med-and-down">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!--Row slogan//-->
+        <div class="row" style="margin-top: -24px;">
+            <div class="navbar-fixed">
+                <nav style="background-color: #fccd7d !important; height: 44px;">
+                    <a href="#" class="black-text brand-logo center" style="margin-top: -12px;">Sua história não é o seu destino!</a>
+                    <ul class="right hide-on-med-and-down">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <ul id="slide-out" class="side-nav fixed" style="margin-top:105px;overflow: auto;transform: translateX(0%);">
+            <img src="imagens\avatar.png" style="margin-left: 50px;">
+            <ul class="collection" style="margin-top: 34px;">
+                <li class="collection-item">Ursa azul</li>
+                <li class="collection-item">Margarida</li>
+                <li class="collection-item">Flamingo roxo</li>
+                <li class="collection-item">Florzinha</li>
+                <li class="collection-item">Lovelace</li>
+                <li class="collection-item">Pietà</li>
+            </ul>
+        </ul>
+    </header>
+    <!--Row santuario//-->
+    <div style="clear:both">
+
+    </div>
+    <main style="overflow:auto;">
+        <div class="message-container">
+            <div id="messages" class="messages">
+            </div>
+        </div>
+        <div class="sender-container grey lighten-4">
+            <div class="row" style="margin-bottom:0px">
+                <div class="col m11 s11">
+                    <input type="text" class="form-control" id="txtMessage" placeholder="Digite sua mensagem" />
+                </div>
+                <div class="col m1 s1">
+                    <a id="btnSend" class="btn-floating red waves-effect" style="margin-top:10px;"><i class="material-icons">send</i></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/chat.js" charset="utf-8"></script>
+</body>
+
+</html>

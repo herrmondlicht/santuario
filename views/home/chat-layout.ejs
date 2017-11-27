@@ -1,0 +1,21 @@
+<div class="message-item">
+        <%if(response.msg && response.emi){%>
+            <%if(response.emi == "human"){%>
+                <div class="message-body is-human">
+                    <p style="padding:10px">
+                        <%=response.msg%>
+                    </p>
+                </div>
+                <%}else{%>
+                    <div class="message-body is-watson">
+                        <p style="padding:10px">
+                            <%=response.msg%>
+                        </p>
+                    </div>
+                    <%}%>
+</div>
+<%}%>
+    </div>
+    <div style="clear:both">
+
+    </div>
